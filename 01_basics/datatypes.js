@@ -1,3 +1,4 @@
+//3rd lecture
 "use strict";//treat all js code as newer version
 //alert(3+3) we are using nodejs here not browser
 let namee="Nawaz"

@@ -37,3 +37,23 @@ console.log(typeof heroes);//object
  * symbol=symbol
  * number and string as it is=number and string
  */
+
+//=================================================================
+//memory
+//stack(primitive)here we get call by value that is exact copy
+//heap(non-primitive or reference)here we get call by reference
+let myYoutubename="Deen and Motivation"
+let anothername= myYoutubename
+anothername="nawaz codes"
+console.log(myYoutubename);
+console.log(anothername);
+//heap i.e non primitive (object)
+let userOne={
+    email:"user@google.com",
+    Upi:"user@ybl"
+}
+let userTwo=userOne
+userTwo.email="heheh@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+//value of both of them gets changed because of call by reference

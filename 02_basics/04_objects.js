@@ -49,3 +49,32 @@ console.log(Object.keys(tinderUser));//prints as error..very much used in projec
 console.log(Object.values(tinderUser));//printing values the same way as keys
 console.log(Object.entries(tinderUser));//used lesser
 console.log(tinderUser.hasOwnProperty('name'));//good practice to check for a property without actually using it
+
+// ===============de-structuring======================== lec18
+const course={
+    coursename:"js in hindi",
+    courseinstructor:"Hitesh Chowdhary",
+    courseprice:"999"
+}
+//course.courseinstructor
+const {courseinstructor}= course
+console.log(courseinstructor);
+
+// const navbar=({company})=>{  //used in react....destructuring of objects
+
+// }
+// navbar(company="Hitesh")
+//============API= apna kaam kisi aur ke sar p dal dena============
+/**value from backend used to come in xml structure now it comes in the form of json files 
+*/
+// { //api calling by json
+//     "name":"Hitesh",
+//     "coursename":"js in hindi",
+//     "price":"free"
+// }
+[
+    {},
+    {},
+    {},
+    {},
+]

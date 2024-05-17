@@ -21,7 +21,11 @@ const result = addTwonumbers(5,10)
 console.log("Result is", result);
 //5 and 10 here are called arguments...nomenclature here is important
 
-function loginUser(username){
-    return`${username}just logged in`
+function loginUser(username="Aman"){ //if no username value is given by the user then by default we take it as Aman...so that it doesnt go undefined
+    if(username===undefined){
+        console.log("please enter the username!");
+        return
+    }
+    return`${username} just logged in`
 }
-console.log(loginUser("shahnawaz!"));
+console.log(loginUser("shahnawaz"));

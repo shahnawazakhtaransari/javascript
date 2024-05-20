@@ -25,9 +25,9 @@ let negvalue=-value
 //console.log(negvalue);
 //console.log(2+2);
 //console.log(2-2);
-//console.log(2%2);
+//console.log(2%2);//remainder
 // console.log(2*2);
-// console.log(2**3);
+// console.log(2**3);//power
 // console.log(2/2);
 
 
@@ -39,12 +39,12 @@ let str3=str1+str2
 
 //console.log("1"+2);
 //console.log(1+"2");
-//console.log("1"+2+3);//phle wala ka type hi consider kiya jaega 
-//console.log(1+2+"3");
+//console.log("1"+2+3);//phle wala ka type hi consider kiya jaega agar string ho toh..returns string 123
+//console.log(1+2+"3");//returns number =33
 //console.log(3+4*5);
 //====================special conversion=================
 console.log(+true);
-console.log(+true);//1
+console.log(+true);//outputs 1
 console.log(+"");//0
 
 let num1,num2,num3

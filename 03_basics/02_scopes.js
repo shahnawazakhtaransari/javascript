@@ -1,4 +1,4 @@
-// {}// it is the scope
+// {}// it is the scope of every where in many programming languages//function scope, global scope,lexical scope,local scope
 // //var c =300
 
 // if(true){
@@ -41,8 +41,13 @@ if(true){
     console.log(username+" "+website);
 }
 //===========interesting=============
+console.log(addOne(5));//runs smoothly though it is declared later
 function addOne(num){
     return num+1
 }
-addOne(100)
-console.log(addOne());
+//console.log(addTwo(5));//shows error=showing it cant access
+// reason as we have also hold the variable 2nd time,1st time we had only declared
+const addTwo= function(num){
+    return num+2
+}
+console.log(addTwo(5));

@@ -24,8 +24,9 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // console.log(newNums);
 
-
-const books = [
+//++++++++++++++++both above method is okay , we can use whatever we want+++++++++++++
+//below example can be used as a small project
+const books = [ //An array of objects
     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
     { title: 'Book Two', genre: 'Non-Fiction', publish: 1992, edition: 2008 },
     { title: 'Book Three', genre: 'History', publish: 1999, edition: 2007 },
@@ -37,9 +38,9 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
 
-  let userBooks = books.filter( (bk) => bk.genre === 'History')
+let userBooks = books.filter( (bk) => bk.genre === 'History')
 
-  userBooks = books.filter( (bk) => { 
-    return bk.publish >= 1995 && bk.genre === "History"
+userBooks = books.filter( (bk) => { 
+   return bk.publish >= 1995 && bk.genre === "History"
 })
   console.log(userBooks);

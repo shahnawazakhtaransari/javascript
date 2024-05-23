@@ -25,3 +25,8 @@ map.set('IN',"INDIA")
 for (const [key, value] of map) {
     console.log(key,":-",value);
 }
+// const myObject={ //obj is not iterable here(for making it there's a diff process)
+//     'game1':'NFS',
+//     'game2':'Vice city',
+//     'game3':'spiderman'
+// }

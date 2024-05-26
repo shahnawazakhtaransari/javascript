@@ -1,0 +1,70 @@
+#parent
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btn
+{
+    width: 100px;
+    margin-top: 20px;
+}
+
+#progress-bar-container
+{
+    width: 400px;
+    border: 1px solid #E1AFD1;
+    height: 40px;
+}
+
+#progress
+{
+    width: 0%;
+    height: 40px;
+    background-color: #E1AFD1;
+}
+
+.btns-container
+{
+    display: flex;
+    margin-top: 10px;
+}
+
+.mr-4
+{
+    margin-right: 4px;
+}
+
+.btn
+{
+    color: white;
+    height: 40px;
+    width: 71px;
+    cursor: pointer;
+    border: 1px solid #FF204E;
+
+}
+
+#run-btn
+{
+  background-color: #FF204E;
+}
+
+#stop-btn
+{
+  background-color: #AD88C6;
+  border-color: #AD88C6;
+}
+
+#replay-btn
+{
+    background-color: #7469B6;
+    border-color: #7469B6;
+}
+
+#clear-btn
+{
+    background-color: grey;
+    border-color: grey;
+}

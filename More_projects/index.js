@@ -59,4 +59,6 @@ function progressFun() {
     }
   }, 1000);
 }
+//minor changes and understanding of every line from this code
+
 //https://github.com/prajwalbhatia/frontend_skill_up/tree/main/machine-coding/progress-bar
